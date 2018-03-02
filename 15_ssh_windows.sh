@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This one makes sure that the Windows environment recognizez the ssh agent started before
+# This one makes sure that the Windows environment recognizes the ssh agent started before
 
 if [[ `uname` == MINGW* ]]
 then
