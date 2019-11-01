@@ -7,6 +7,10 @@ git config --global alias.twitter 'log --graph --abbrev-commit --pretty=format:"
 
 alias less="less -q"
 
+if [ $DESKTOP_SESSION == 'plasma' ]; then
+	alias ssh="setsid -w ssh"
+fi
+
 # nicer pager for psql and git log
 
 export PAGER=less
