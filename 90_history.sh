@@ -9,7 +9,7 @@ shopt -s histappend
 export HISTSIZE=1000000
 export HISTFILESIZE=20000000
 
-if [ -z $PROMPT_COMMAND ]
+if [ -z "$PROMPT_COMMAND" ]
 then
 	export PROMPT_COMMAND="history -a"
 else
